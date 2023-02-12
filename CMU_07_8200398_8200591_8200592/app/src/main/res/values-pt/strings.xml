@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartHouse</string>
+
+    <string name="settings">Definições</string>
+    <string name="houses">Casas</string>
+    <string name="logout">Sair</string>
+
+    <string name="top_bar_go_back">Voltar</string>
+    <string name="save">Guardar</string>
+
+    <string name="email">Email</string>
+    <string name="password">Palavra-passe</string>
+    <string name="new_password">Nova palavra-passe</string>
+    <string name="old_password">Antiga palavra-passe</string>
+    <string name="confirm_new_password">Confirme a nova palavra-passe</string>
+    <string name="welcome_mensage_login">Bem-vindo a casa. Entre para gerenciar seus dispositivos.</string>
+    <string name="home_screen_image">Home Screen Image</string>
+    <string name="log_in">Conecte-se</string>
+    <string name="without_account">Não tem uma conta ainda?</string>
+    <string name="create_account">Crie a sua conta aqui</string>
+    <string name="welcome_mensage_sign_up">Crie conta para começar a gerenciar sua casa de qualquer lugar.</string>
+    <string name="confirm_password">Confirme a Palavra-passe</string>
+    <string name="already_account">Já tem uma conta?</string>
+    <string name="sign_up">Criar conta</string>
+    <string name="name">Nome</string>
+    <string name="phone_number">Número de telefone</string>
+
+    <string name="add_division">Add nova Divisão</string>
+    <string name="edit_division">Editar Divisão</string>
+
+    <string name="power_unity">kwh</string>
+    <string name="power_usage">Consumo energético de hoje</string>
+
+    <string name="add_house">Adicionar nova casa</string>
+    <string name="house_name">Nome da casa</string>
+    <string name="user_email">Email do utilizador</string>
+    <string name="user_list">Lista de utilizadores</string>
+    <string name="add_user">Adicionar</string>
+    <string name="select_image">Selecione uma imagem</string>
+
+    <string name="devices">Dispositivos</string>
+    <string name="type_of_device">Tipo de dispositivo</string>
+
+    <string name="brightness">Brilho</string>
+
+    <string name="system">Sistema</string>
+    <string name="dark">Escuro</string>
+    <string name="light">Claro</string>
+    <string name="select_theme">Selecione o tema:</string>
+
+    <string name="device_ip">IP do dispositivo</string>
+
+    <string name="invalid_name_division">O nome da divisão apenas pode conter letras e números</string>
+    <string name="invalid_name_house">O nome da casa apenas pode conter letras e números</string>
+    <string name="invalid_email">Email inválido</string>
+    <string name="invalid_ip">IP inválido</string>
+    <string name="email_not_registered">Email não registado</string>
+
+    <string name="please_wait">Por favor, aguarde ...</string>
+
+    <string name="error_accessing_sensor">Não foi possível conectar com o sensor</string>
+
+    <string name="Plug">Tomadas</string>
+    <string name="Light">Lâmpadas</string>
+    <string name="Blinds">Persianas</string>
+
+    <string name="user_already_added">Utilizador já tem acesso à casa</string>
+
+    <string name="invalid_password">Password inválida (A password deve ter pelo menos 8 caracteres e incluir um algarismo (0-9), um caráter especial, uma letra maiúscula (A-Z) e uma letra minúscula (a-z))</string>
+    <string name="invalid_confirm_password">Password é diferente da confirmação de password</string>
+    <string name="invalid_name">Nome inválido</string>
+    <string name="invalid_regist">E-mail já registrado</string>
+
+    <string name="success_change_user">Sucesso ao editar utilizador</string>
+    <string name="error_change_user">Erro ao editar utilizador</string>
+
+
+    <string name="title_remove_division">Remover Divisão</string>
+    <string name="title_add_sensor">Adicionar Sensor</string>
+    <string name="title_remove_sensor">Remove Sensor</string>
+    <string name="title_edit_house">Editar casa</string>
+    <string name="title_remove_house">Remover casa</string>
+    <string name="message_remove_division">Tem certeza que deseja remover a divisão</string>
+    <string name="message_remove_house">Tem certeza que deseja remover a casa</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="remove">Remover</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Adicionar</string>
+
+    <string name="living_room">Sala de estar</string>
+    <string name="bathroom">Casa de banho</string>
+    <string name="bedroom">Quarto</string>
+    <string name="kitchen">Cozinha</string>
+    <string name="office">Escritório</string>
+    <string name="garage">Garagem</string>
+
+    <string name="no_connection">Sem conexão</string>
+
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="address">Morada</string>
+
+    <string name="invalid_latitude">Latitude inválida</string>
+    <string name="invalid_longitude">Longitude inválida</string>
+    <string name="invalid_address">Morada inválida</string>
+
+    <string name="use_phone_location">Usar a localização do telefone</string>
+    <string name="not_use_phone_location">Não usar a localização do telefone</string>
+
+    <string name="see_on_map">Ver no mapa</string>
+
+    <string name="synchronizing">Smarthouse está a sincronizar os dados</string>
+
+    <string name="invalid_login">E-mail ou senha inválidos.</string>
+
+    <string name="my_house">Minha casa</string>
+
+    <string name="change_group_settings">Alterar configurações do grupo</string>
+
+    <string name="group_name">Nome do grupo</string>
+    <string name="group">Grupo</string>
+    <string name="choose_group">Escolha um grupo</string>
+    <string name="group_name_already_exists">O nome do grupo já existe</string>
+    <string name="choose_an_existing_group_or_add_a_new_one">Escolha um grupo existente ou adicione um novo</string>
+    <string name="add_new_group">Adicionar um novo grupo</string>
+    <string name="existing_or_new">Existente ou novo</string>
+    <string name="choose_an_option">Escolha uma opção</string>
+    <string name="choose_existing_group">Escolha um grupo existente</string>
+</resources>

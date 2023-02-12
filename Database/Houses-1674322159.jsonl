@@ -1,0 +1,8 @@
+{"__path__":"Houses/SMZapyiMvR1xRnl6Q8Ff","latitude":40.6374474,"longitude":-8.640229300000001,"name":"Casa teste","photo":"https://firebasestorage.googleapis.com/v0/b/smarthouse-373613.appspot.com/o/images%2F1d498e31-3c34-4f44-9a78-0769f3b93626.jpg?alt=media&token=b9ee9434-81f4-4eb0-bd25-90a19e4734c1","users":["8200591@estg.ipp.pt","8200592@estg.ipp.pt","8200398@estg.ipp.pt"]}
+{"__path__":"Houses/SMZapyiMvR1xRnl6Q8Ff/Divisions/61NVojOOCmlJj9hwk1zo","name":"Sala","typeDivision":0}
+{"__path__":"Houses/SMZapyiMvR1xRnl6Q8Ff/Divisions/61NVojOOCmlJj9hwk1zo/Groups/o5ENchPq463s7RJ1Lzrl","name":"Grupo 1","typeSensor":1}
+{"__path__":"Houses/SMZapyiMvR1xRnl6Q8Ff/Divisions/61NVojOOCmlJj9hwk1zo/Groups/uUbLclmCQPBpYtOL6gIX","name":"Grupo 1","typeSensor":2}
+{"__path__":"Houses/SMZapyiMvR1xRnl6Q8Ff/Divisions/61NVojOOCmlJj9hwk1zo/Groups/vCw9guYbGIOIjlUZQ2LR","name":"Grupo 1","typeSensor":0}
+{"__path__":"Houses/SMZapyiMvR1xRnl6Q8Ff/Divisions/61NVojOOCmlJj9hwk1zo/Groups/uUbLclmCQPBpYtOL6gIX/Sensors/wxjKabTTNP8OjTbpJ7rO","ip":"146.190.1.124:3000"}
+{"__path__":"Houses/SMZapyiMvR1xRnl6Q8Ff/Divisions/61NVojOOCmlJj9hwk1zo/Groups/vCw9guYbGIOIjlUZQ2LR/Sensors/88d5cCBwGnEUAeWqWpGd","ip":"146.190.1.124:3040"}
+{"__path__":"Houses/SMZapyiMvR1xRnl6Q8Ff/Divisions/61NVojOOCmlJj9hwk1zo/Groups/o5ENchPq463s7RJ1Lzrl/Sensors/Tf1G4vWtu4TmfrGVJ8ji","ip":"146.190.1.124:3020"}

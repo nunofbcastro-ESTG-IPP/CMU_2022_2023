@@ -1,0 +1,44 @@
+{"users": [
+{
+  "localId": "VTyyFLq1FNbTUpPyNIfo5FgXsMS2",
+  "email": "8200398@estg.ipp.pt",
+  "emailVerified": false,
+  "passwordHash": "GWXlgo51KmJYY5q38MZaqiSEtEDAsMx1ats1UMBM1C+W3keCujGEMhecKYBeIKL+0OsOXbyIo9hqICqtsEcQzA==",
+  "salt": "PpWi7qLvF6cArA==",
+  "lastSignedInAt": "1674320823073",
+  "createdAt": "1674320820500",
+  "disabled": false,
+  "providerUserInfo": []
+},
+{
+  "localId": "eYJIl35fFWWQATHzKhPkg1jfE1S2",
+  "email": "teste@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "1uw4guVgF7jxF6HD2mgH5g5tzRlvIhRUa9rRXrTeHCrLpKq7t5LG2L7EYJYTp894nOCFTLMOUbY0iCc7dtmzMQ==",
+  "salt": "rHIfzT8EO3UApw==",
+  "lastSignedInAt": "1674315863593",
+  "createdAt": "1673890709007",
+  "disabled": false,
+  "providerUserInfo": []
+},
+{
+  "localId": "oPMLhK6ZypWwhTFx1yqj4MGdknq2",
+  "email": "8200592@estg.ipp.pt",
+  "emailVerified": false,
+  "passwordHash": "0EMQU9qZl08/59nybS5SUmiVrHs/W+gNZZeHeEdGGjnfague14rN1iuMWtKTLYo4NUCZuGiE9r7+p2H4ENk94w==",
+  "salt": "tox0LsYgW4KmjQ==",
+  "lastSignedInAt": "1673898741282",
+  "createdAt": "1673716236823",
+  "providerUserInfo": []
+},
+{
+  "localId": "zcNOAp56mONKjfQAxY9huiMdibq2",
+  "email": "8200591@estg.ipp.pt",
+  "emailVerified": false,
+  "passwordHash": "sK5JX5LP5Lg7HbWIcq+KAxT9pNPkeAa7mkplZoXLIMYjPB4VKO6x4w6Yhas/xUVKplRWRD4gcvuWTfz99x13zQ==",
+  "salt": "kUQkO2jUCQmh+g==",
+  "lastSignedInAt": "1674318241785",
+  "createdAt": "1673884642582",
+  "disabled": false,
+  "providerUserInfo": []
+}]}

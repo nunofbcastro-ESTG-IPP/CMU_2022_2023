@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  shelly_mock_api:
+    image: ${DOCKER_REGISTRY-}shelly_mock_api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: docker/entrypoint.sh
+    ports:
+      - '3000-3059:3000-3059'
+    volumes:
+      - .:/shelly_mock_api

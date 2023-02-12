@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CMU_07_8200398_8200591_8200592" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowBackground">@color/blackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
