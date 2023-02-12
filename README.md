@@ -27,7 +27,46 @@
 
 <h2>How to run</h2>
 
-To run the project, you need to install [Cygwin](https://www.cygwin.com) and [Code::Blocks](https://www.codeblocks.org). After that, simply open the project in Code::Blocks and run it. That's all you need to do to get started with this project.
+<h3>API</h3>
+
+To simulate the sensors, we will use a Node.js project.
+
+```
+cd shelly-mock-api-master
+npm install
+npm start plug 20 light 20 blind 20
+```
+
+or
+
+```
+cd shelly-mock-api-master
+docker compose up
+```
+
+After running this command, the API is available at the IP address 10.0.2.2 if you run it on the emulator or the device where you ran the API, otherwise it will be the IP of the device where the API was executed. The ports used for the shutter devices range from 3000 to 3019, while the ports used for the socket devices range from 3020 to 3039, and the ports used for the lighting devices range from 3040 to 3059.
+
+<h3>Android project</h3>
+
+1. Importing Database Folder Files to Firebase using Firestore:
+In order to import the files from the Database folder to Firebase, the Firestore service must be used. This can be done by logging into the Firebase console, creating a new database, and then using the import option to select the files from the Database folder.
+
+2. Exporting the google-services.json File from Firebase:
+The google-services.json file is crucial for connecting the project to Firebase. To export this file, log into the Firebase console, go to the project settings, and select the "Download google-services.json" option. Then, add the file to the CMU_07_8200398_8200591_8200592\app folder.
+
+3. Modifying the AndroidManifest.xml File:
+Finally, the AndroidManifest.xml file needs to be modified in order to change the value of the android:value attribute to the appropriate key for the Google Maps API. This can be done by opening the file in a text editor, locating the relevant line of code, and changing the value to the key that was obtained from the Google Maps API Console.
+
+```
+<meta-data
+  android:name="com.google.android.geo.API_KEY"
+  android:value="key" 
+/>
+```
+
+4. To run the project in Android Studio, open the project, click on the "Run" button, or select "Run" from the "Run" menu, and verify the output to ensure the changes made to the project have taken effect.
+
+5. The project also contains UI tests and unit tests to verify the visual appearance and behavior of the app and the individual units of code, respectively, ensuring the quality and reliability of the application.
 
 ---
 
