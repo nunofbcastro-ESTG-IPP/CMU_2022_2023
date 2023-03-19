@@ -16,8 +16,6 @@
 
 <h2>Screens</h2>
 
----
-
 <h3>Authentication</h3>
 
 <img src=".github/assets/login_screen.png" width="auto" height="300"> <img src=".github/assets/regist_screen.png" width="auto" height="300">
