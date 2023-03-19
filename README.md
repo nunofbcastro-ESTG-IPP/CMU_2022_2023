@@ -14,6 +14,34 @@
 
 ---
 
+<h2>Screens</h2>
+
+---
+
+<h3>Authentication</h3>
+
+<img src=".github/assets/login_screen.png" width="auto" height="300"> <img src=".github/assets/regist_screen.png" width="auto" height="300">
+
+---
+
+<h3>Sensors</h3>
+
+<img src=".github/assets/house_screen_light.png" width="auto" height="300"> <img src=".github/assets/divisions_screen.png" width="auto" height="300">
+
+---
+
+<h3>Listings</h3>
+
+<img src=".github/assets/lights_screen.png" width="auto" height="300"> <img src=".github/assets/sockets_screen.png" width="auto" height="300"> <img src=".github/assets/blinds_screen.png" width="auto" height="300">
+
+---
+
+<h3>Color mode</h3>
+
+<img src=".github/assets/house_screen_light.png" width="auto" height="300"> <img src=".github/assets/house_screen_dark.png" width="auto" height="300">
+
+---
+
 <h2>Languages</h2>
 <p align="left"> 
   <img src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&amp;logo=android-studio&amp;logoColor=white" alt="Android Studio">
@@ -50,18 +78,18 @@ After running this command, the API is available at the IP address 10.0.2.2 if y
 <h3>Android project</h3>
 
 1. Importing Database Folder Files to Firebase using Firestore:
-In order to import the files from the Database folder to Firebase, the Firestore service must be used. This can be done by logging into the Firebase console, creating a new database, and then using the import option to select the files from the Database folder.
+   In order to import the files from the Database folder to Firebase, the Firestore service must be used. This can be done by logging into the Firebase console, creating a new database, and then using the import option to select the files from the Database folder.
 
-2. Exporting the google-services.json File from Firebase:
-The google-services.json file is crucial for connecting the project to Firebase. To export this file, log into the Firebase console, go to the project settings, and select the "Download google-services.json" option. Then, add the file to the CMU_07_8200398_8200591_8200592\app folder.
+1. Exporting the google-services.json File from Firebase:
+   The google-services.json file is crucial for connecting the project to Firebase. To export this file, log into the Firebase console, go to the project settings, and select the "Download google-services.json" option. Then, add the file to the CMU_07_8200398_8200591_8200592\app folder.
 
-3. Modifying the AndroidManifest.xml File:
-Finally, the AndroidManifest.xml file needs to be modified in order to change the value of the android:value attribute to the appropriate key for the Google Maps API. This can be done by opening the file in a text editor, locating the relevant line of code, and changing the value to the key that was obtained from the Google Maps API Console.
+1. Modifying the AndroidManifest.xml File:
+   Finally, the AndroidManifest.xml file needs to be modified in order to change the value of the android:value attribute to the appropriate key for the Google Maps API. This can be done by opening the file in a text editor, locating the relevant line of code, and changing the value to the key that was obtained from the Google Maps API Console.
 
 ```
 <meta-data
   android:name="com.google.android.geo.API_KEY"
-  android:value="key" 
+  android:value="key"
 />
 ```
 
@@ -93,4 +121,3 @@ Finally, the AndroidManifest.xml file needs to be modified in order to change th
     <img src="https://img.shields.io/github/followers/luisousa14.svg?style=for-the-badge&label=Follow" height="20"/>
   </a>
 </h3>
-
